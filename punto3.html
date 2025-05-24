@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Uso de operadores logicos y concatenacion</title>
+</head>
+<body>
+     <script>
+        
+        let esMayorDeEdad = true;
+        let tieneLicencia = false;
+
+        
+        let puedeConducir = esMayorDeEdad && tieneLicencia;
+        console.log("¿Puede conducir?", puedeConducir);
+
+        console.log("¿Es mayor de edad o tiene licencia?", esMayorDeEdad || tieneLicencia);
+
+    
+        let nombre = "Carlos";
+        let mensaje1 = "Bienvenido, " + nombre + ". ¡Esperamos que disfrutes tu visita!";
+        console.log(mensaje1);
+
+        let mensaje2 = `Bienvenido, ${nombre}. ¡Esperamos que disfrutes tu visita!`;
+        console.log(mensaje2);
+    </script>
+</body>
+</html>
